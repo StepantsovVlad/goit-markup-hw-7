@@ -1,0 +1,80 @@
+.section-employee {
+  background-color: #f5f4fa;
+  padding-top: 94px;
+  padding-bottom: 94px;
+  h2 {
+    font-size: 36px;
+    line-height: 1.16;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--title-text-collor);
+    margin-bottom: 50px;
+  }
+  .line {
+    display: flex;
+    box-sizing: border-box;
+  }
+  .name {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.18;
+    margin-bottom: 10px;
+    color: var(--title-text-collor);
+  }
+  .department {
+    font-size: 16px;
+    line-height: 1.18;
+    margin-bottom: 16px;
+  }
+  .list {
+    text-align: center;
+    background-color: #ffffff;
+    border-radius: 3px;
+    offset: 0px, 1px;
+    box-shadow: 0px 2px 1px 0px rgba(0, 0, 0, 0.2),
+      0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
+  }
+}
+
+.employee {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.employee-logo-list {
+  display: flex;
+  justify-content: center;
+}
+
+.employee-logo-item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 44px;
+  height: 44px;
+  &:not(:last-child) {
+    margin-right: 10px;
+  }
+}
+
+.employee-logo-link {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background-color 250ms linear, fill 250ms linear;
+  &:hover,
+  &:focus {
+    background-color: #2196f3;
+  }
+  &:hover .employee-logo-icon,
+  &:focus .employee-logo-icon {
+    fill: #ffffff;
+  }
+}
+
+.employee-logo-icon {
+  fill: rgba(175, 177, 184, 1);
+}

@@ -1,0 +1,133 @@
+.footer-section {
+  font-size: 14px;
+  line-height: 1.71;
+  color: var(--white-collor);
+  background-color: #2f303a;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  p {
+    margin-top: 20px;
+  }
+  .link {
+    margin-top: 9px;
+    transition: color 250ms linear, background-color 250ms linear;
+  }
+  .collor {
+    color: rgba(255, 255, 255, 0.6);
+  }
+  & .link:hover,
+  & .link:focus {
+    color: #2196f3;
+  }
+}
+
+.logo .white {
+  color: var(--white-collor);
+}
+
+.footer-logo-list {
+  display: flex;
+  justify-content: center;
+}
+
+.footer-logo-item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 44px;
+  height: 44px;
+  &:not(:last-child) {
+    margin-right: 10px;
+  }
+}
+
+.footer-logo-link {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(255, 255, 255, 0.1);
+  transition: background-color 250ms linear, fill 250ms linear;
+  &:hover,
+  &:focus {
+    background-color: #2196f3;
+  }
+  &:hover .footer-logo-icon,
+  &:focus .footer-logo-icon {
+    fill: rgba(255, 255, 255, 1);
+    background-color: #2196f3;
+  }
+}
+
+.footer-logo-icon {
+  fill: rgba(255, 255, 255, 1);
+  transition: background-color 2500ms linear;
+}
+
+.footer-nav {
+  display: flex;
+  align-items: baseline;
+}
+.conecting-list {
+  margin-left: 70px;
+  h3 {
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-align: left;
+    margin-bottom: 20px;
+  }
+}
+
+.online-input {
+  width: 358px;
+  height: 50px;
+  padding-left: 16px;
+  background-color: transparent;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  box-sizing: border-box;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+  border-radius: 4px;
+  color: rgba(255, 255, 255, 0.6);
+  &::placeholder {
+    color: rgba(255, 255, 255, 0.6);
+    font-size: 16px;
+    line-height: 20px;
+  }
+}
+
+.online-form {
+  margin-bottom: 20px;
+  font-size: 14px;
+  line-height: 16px;
+}
+
+.online-form-list {
+  margin-left: 93px;
+}
+
+.btn.online-btn {
+  background: #2196f3;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  width: 200px;
+  height: 50px;
+  margin-left: 12px;
+  border: none;
+  font-size: 16px;
+  line-height: 30px;
+  color: rgba(255, 255, 255, 1);
+  font-weight: bold;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.button-online {
+  margin-left: 10px;
+}

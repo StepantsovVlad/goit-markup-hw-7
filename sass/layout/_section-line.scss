@@ -1,4 +1,4 @@
-.line {
+.section-line__line {
   display: flex;
   & .list:not(:last-child) {
     margin-right: 30px;
@@ -7,7 +7,7 @@
 
 .section-line {
   padding-bottom: 94px;
-  .line {
+  .section-line__line {
     justify-content: center;
   }
   h2 {
@@ -17,16 +17,16 @@
     font-size: 36px;
     line-height: 42px;
   }
-  & .list {
+  & .section-line__list {
     position: relative;
     display: flex;
   }
-  & .list:not(:last-child) {
+  & .section-line__list:not(:last-child) {
     margin-right: 30px;
   }
 }
 
-.section-line-text {
+.section-line__text {
   width: 370px;
   height: 70px;
   padding-top: 27px;

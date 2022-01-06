@@ -2,10 +2,10 @@
   padding-top: 94px;
   padding-bottom: 94px;
   display: flex;
-  .list {
+  .advantage__list {
     width: 270px;
   }
-  & .list:not(:last-child) {
+  & .advantage__list:not(:last-child) {
     margin-right: 30px;
   }
   .advantage__meaning {
